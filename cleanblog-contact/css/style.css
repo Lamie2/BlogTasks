@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+
+.header {
+    background-image: url("../image/contact-bg.jpg"), linear-gradient(rgba(8, 8, 8, 0.437), rgba(8, 8, 8, 0.437));
+    background-blend-mode: overlay;
+    ;
+    height: 530px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.header .header-top {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header .header-top .logo h1 {
+    color: white;
+}
+
+.header .header-top .nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .header-top li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header .header-top li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .site-heading {
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+.header .site-heading h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+.header .site-heading p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.header .site-heading span{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin-top: 15px ;
+}
+
+.main-sec{
+    width: 700px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.main-sec p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid;
+  }
+
+  .button{
+      width: 90px;
+      height: 40px;
+      background-color: rgb(0, 183, 255);
+      color: white;
+      padding:15px;
+  }
+
+  hr {
+    background-color: #dee2e6;
+    opacity: 1;
+    height: 1px;
+    border: none;
+    margin-top: 30px;
+}
+
+  .footer {
+    padding: 40px;
+
+}
+
+.footer .icons {
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-image: url("../image/home-bg.jpg"), linear-gradient(rgba(8, 8, 8, 0.437),rgba(8, 8, 8, 0.437));
+    background-blend-mode: overlay;;
+    height: 530px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+}
+
+.header .header-top{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.header .header-top .logo h1{
+    color: white;
+}
+
+.header .header-top .nav ul{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header .header-top li{
+list-style: none;
+margin-left: 20px;
+}
+
+.header .header-top li a{
+text-decoration: none;
+color: white;
+}
+
+.header .site-heading{
+    margin: auto;
+    margin-top: 120px;
+}
+.header .site-heading h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+
+.header .site-heading p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.posts{
+    margin: auto;
+    width: 700px;
+    
+}
+.posts .post{
+    padding: 30px;
+}
+.posts .post h1{
+
+    font-size: 40px;
+    padding: 10px;
+}
+
+.posts .post p{
+
+    font-size: 25px;
+    padding: 10px;
+}
+
+.posts .post span{
+
+    font-size: 20px;
+    padding: 10px;
+}
+
+ hr {
+        background-color: #dee2e6;
+        opacity: 1;
+        height: 1px;
+        border: none;
+        margin-top: 30px;
+    }
+
+.button{
+background-color: #0085A1;
+text-align: center;
+color: white;
+font-size: 15px;
+height: 50px;
+padding: 15px 25px;
+border: none;
+float: left;
+}
+
+.footer{
+ padding: 40px;
+}
+
+.footer .icons{
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
